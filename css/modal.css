@@ -1,0 +1,156 @@
+
+#fade_modal,
+#modal_profile{
+    transition: 0.5s;
+    opacity: 1;
+    pointer-events: all;
+}
+#fade_modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.6);
+    z-index: 5;
+}
+#modal_profile{
+    position: fixed;
+    left: 80%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    width: 320px;
+    max-width: 90%;
+    /* padding: 1.2rem; */
+    border-radius: 0.5rem;
+    background-color: var(--color-secondary);
+}
+.modal_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    /* margin-bottom: 1rem;*/
+    padding-bottom: .5rem;
+}
+.modal_header button, h5{
+    margin: .6rem .5rem 0;
+}
+.modal_header h5{
+    font-size: 30px;
+    padding-left: .5rem;
+}
+
+#modal_profile.hide,
+#fade_modal.hide{
+    opacity: 0;
+    pointer-events: none;
+}
+
+.navbar_user li i {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+
+/** modal bs5**/
+
+.modal_bs_5 {
+    background: var(--color-secondary);
+}
+.text_forms{
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+/********  Modal Skills  *******/
+#fade_modal_skill,
+#modal_profile_skill{
+    transition: 0.5s;
+    opacity: 1;
+    pointer-events: all;
+}
+#fade_modal_skill{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.6);
+    z-index: 5;
+}
+#modal_profile_skill{
+    position: relative;
+    left: 51.5%;
+    top: 50%;
+    transform: translate(-50%, 5%);
+    z-index: 0;
+    width: 560px;
+    max-width: 90%;
+    /* padding: 1.2rem; */
+    border-radius: 0.5rem;
+    background-color: var(--color-secondary);
+}
+.modal_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    /* margin-bottom: 1rem;*/
+    padding-bottom: .5rem;
+}
+.modal_header button, h5{
+    margin: .6rem .5rem 0;
+}
+.modal_header h5{
+    font-size: 30px;
+    padding-left: .5rem;
+}
+
+#modal_profile_skill.hide_skill,
+#fade_modal_skill.hide_skill{
+    opacity: 0;
+    pointer-events: none;
+}
+
+.navbar_user li i {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+
+/** modal bs5**/
+
+.modal_bs_5 {
+    background: var(--color-secondary);
+}
+.text_forms{
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
